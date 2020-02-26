@@ -1,10 +1,7 @@
 # EE-Emerge 2020: Four Face
 
-Provide an introductory paragraph, describing:
 
 Our project uses capsense technology to create an touch sensitive multiplayer game cube. There will be 4 faces available to play the game on, allowing a maximum of 4 players. Each face will produce the same pattern at the start of the game. After a short amount of time, the pattern will disappear. The goal of this game is to reproduce the pattern correctly.  As the rounds progress, the patterns become more complicated and the time allotted to reenter the pattern will decrease.
-
-* Link to project home page
 
 ## Table of Contents
 
