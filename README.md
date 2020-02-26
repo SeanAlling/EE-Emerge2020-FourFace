@@ -3,7 +3,6 @@
 Provide an introductory paragraph, describing:
 
 * What your project does
-* Why people should consider using your project
 * Link to project home page
 
 ## Table of Contents
@@ -21,7 +20,6 @@ Provide an introductory paragraph, describing:
 1. [How to Get Help](#how-to-get-help)
 1. [Further Reading](#further-reading)
 1. [Contributing](#contributing)
-1. [License](#license)
 1. [Authors](#authors)
 1. [Acknowledgements](#acknowledgements)
 
@@ -57,24 +55,37 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Dependencies
 
-Describe what software and libraries you will need to install in order to build and use this project. Provide details on how to resolve these dependencies.
+### Required 
+In order to build the firmware, [TI Code Composer](https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html) should be installed. When prompted select to add support for MSP430 and MSP432 microcontrollers. 
 
-Remember: git-lfs is a dependency that developers will need to resolve before they can get started with a repo using LFS.
-
-```
-Examples should be included
-```
+### Optional
+Segger J-Link support can be added for MSP432, but is not required.
 
 ## Getting the Source
 
-Include a link to your github reposistory (you have no idea how people will findy our code), and also a summary of how to clone.
-
-
-This project is [hosted on GitHub](https://github.com/embeddedartistry/embedded-resources). You can clone this project directly using this command:
+This project is [hosted on GitHub](hhttps://github.com/oceanofthelost/EE-Emerge2020-FourFace). You can clone this project directly using this command:
 
 ```
-git clone git@github.com:embeddedartistry/embedded-resources.git
+git clone https://github.com/oceanofthelost/EE-Emerge2020-FourFace
 ```
+
+This will create a new root folder "EE-Emerge2020-FourFace" that will contain all projects for Four Face.
+
+## Installation
+
+1. Open Code Composer Studio
+1. Create a new workspace 
+    * File -> Switch Workspace -> Other
+1. Browse to where the project repository was closed. 
+1. Press launch
+1. Import projects
+    1. Project -> Import CCS Projects
+    1. Press Browse
+    1. Select root folder that was cloned.
+    1. Press OK 
+    1. Checkmark all projects
+    1. Press Finish
+1. Build each project one by one
 
 ## Building
 
@@ -83,89 +94,37 @@ Instructions for how to build your project
 ```
 Examples should be included
 ```
-
-## Running Tests
-
-Describe how to run unit tests for your project.
-
-```
-Examples should be included
-```
-
-### Other Tests
+## Flashing
 
 If you have formatting checks, coding style checks, or static analysis tests that must pass before changes will be considered, add a section for those and provide instructions
 
-## Installation
 
-Instructions for how to install your project's build artifacts
-
-```
-Examples should be included
-```
-
-## Usage
-
-Instructions for using your project. Ways to run the program, how to include it in another project, etc.
-
-```
-Examples should be included
-```
-
-If your project provides an API, either provide details for usage in this document or link to the appropriate API reference documents
-
-**[Back to top](#table-of-contents)**
-
-# Release Process
-
-Talk about the release process. How are releases made? What cadence? How to get new releases?
-
-## Versioning
-
-This project uses [Semantic Versioning](http://semver.org/). For a list of available versions, see the [repository tag list](https://github.com/your/project/tags).
-
-## Payload
 
 **[Back to top](#table-of-contents)**
 
 # How to Get Help
 
-Provide any instructions or contact information for users who need to get further help with your project.
-
-# Contributing
-
-Provide details about how people can contribute to your project. If you have a contributing guide, mention it here. e.g.:
-
-We encourage public contributions! Please review [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on our code of conduct and development process.
-
-**[Back to top](#table-of-contents)**
-
-# Further Reading
-
-Provide links to other relevant documentation here
-
-**[Back to top](#table-of-contents)**
-
-# License
-
-Copyright (c) 2017 Embedded Artistry LLC
-
-This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) file for details.
+For help please contact one of the project [authors](#release-process).
 
 **[Back to top](#table-of-contents)**
 
 # Authors
 
-* **[Phillip Johnston](https://github.com/phillipjohnston)** - *Initial work* - [Embedded Artistry](https://github.com/embeddedartistry)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* Patrick Mackle
+* Anthony Pham
+* Sophie Bolotin
+* Noah Tarr
+* Vanessa Liera
+* Victoria Liera
+* Michelle Acoba
+* Christian Gonzalez
+* Sean Alling
 
 **[Back to top](#table-of-contents)**
 
 # Acknowledgments
 
-Provide proper credits, shoutouts, and honorable mentions here. Also provide links to relevant repositories, blog posts, or contributors worth mentioning.
-
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contributed in this project. If you used external code, link to the original source.
+UC Davis
+Texas Instruments
 
 **[Back to top](#table-of-contents)**
