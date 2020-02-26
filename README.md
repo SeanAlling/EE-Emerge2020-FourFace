@@ -2,7 +2,8 @@
 
 Provide an introductory paragraph, describing:
 
-* What your project does
+Our project uses capsense technology to create an touch sensitive multiplayer game cube. There will be 4 faces available to play the game on, allowing a maximum of 4 players. Each face will produce the same pattern at the start of the game. After a short amount of time, the pattern will disappear. The goal of this game is to reproduce the pattern correctly.  As the rounds progress, the patterns become more complicated and the time allotted to reenter the pattern will decrease.
+
 * Link to project home page
 
 ## Table of Contents
@@ -26,8 +27,18 @@ Provide an introductory paragraph, describing:
 # About the Project
 
 Here you can provide more details about the project
-* What features does your project provide?
-* Short motivation for the project? (Don't be too long winded)
+What features does your project provide?
+Features:
+- CapSense Technology
+- Custom PCB's
+- 1-4 player game
+- Difficulty adjustment
+- Portable
+
+
+Short motivation for the project? (Don't be too long winded)
+Put a creative, more modern spin on a similar, but older game. 
+
 * Links to the project site
 
 ```
