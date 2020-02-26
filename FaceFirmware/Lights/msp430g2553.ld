@@ -1,5 +1,5 @@
 /* ============================================================================ */
-/* Copyright (c) 2019, Texas Instruments Incorporated                           */
+/* Copyright (c) 2018, Texas Instruments Incorporated                           */
 /*  All rights reserved.                                                        */
 /*                                                                              */
 /*  Redistribution and use in source and binary forms, with or without          */
@@ -31,7 +31,7 @@
 /* ============================================================================ */
 
 /* This file supports MSP430G2553 devices. */
-/* Version: 1.207 */
+/* Version: 1.206 */
 /* Default linker script, for normal executables */
 
 OUTPUT_ARCH(msp430)
