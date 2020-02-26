@@ -5,3 +5,6 @@ FaceFirmware/Debug/*
 .jxbrowser-data/*
 RemoteSystemsTempFiles/*
 FaceFirmware/targetConfigs/*
+GameMasterFirmware/Debug/*
+GameMasterFirmware/Debug__GNU/*
+GameMasterFirmware/targetConfigs/*

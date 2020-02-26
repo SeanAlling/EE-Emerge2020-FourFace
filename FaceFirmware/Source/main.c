@@ -83,7 +83,7 @@ void gradualFill(uint32_t n, ColorMap color)
     for (uint32_t i = 0; i < n; i++)
     {        // n is number of LEDs
         setLEDColor(i, color);
-        __delay_cycles(1000000);       // lazy delay
+        __delay_cycles(10000);       // lazy delay
     }
     showStrip();
 }
