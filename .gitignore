@@ -1,0 +1,7 @@
+/.metadata/
+FaceFirmware/Debug/*
+.settings
+.launches
+.jxbrowser-data/*
+RemoteSystemsTempFiles/*
+FaceFirmware/targetConfigs/*
